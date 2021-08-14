@@ -36,7 +36,7 @@ public class Main {
             System.out.println(IntToRome(result));
         }
     }
-
+//и так понятно
     public static Integer Calc() {
         switch (operation) {
             case "+": result = num1 + num2; break;
@@ -49,7 +49,7 @@ public class Main {
 
     }
 
-
+//проверка на число
     public static boolean isDigit (String str) {
         try {
             Integer.parseInt(str);
